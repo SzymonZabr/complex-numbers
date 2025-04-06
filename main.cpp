@@ -1,5 +1,5 @@
 #include <iostream>
-#include "complex.h"
+#include "Complex.h"
 
 using namespace std;
 
@@ -19,6 +19,15 @@ int main()
 
     complex c3 = add_complex(c1, c2);
     print_complex(c3);
+
+    complex c4 = subtract_complex(c1, c2);
+    print_complex(c4);
+
+    complex c5 = multiply_complex(c1, c2);
+    print_complex(c5);
+
+    complex c6 = divide_complex(c1, c2);
+    print_complex(c6);
 
     return 0;
 }
